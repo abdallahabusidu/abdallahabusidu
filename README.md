@@ -24,12 +24,7 @@
 <br/>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=abdallahabusidu&show_icons=true&hide_border=true&count_private=true&bg_color=070b14&title_color=00f5d4&icon_color=f15bb5&text_color=c9d1d9" />
-  <img height="165" src="https://streak-stats.demolab.com?user=abdallahabusidu&hide_border=true&background=070b14&ring=9b5de5&fire=f15bb5&currStreakLabel=00f5d4&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=6e7681&stroke=1e2a45" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=abdallahabusidu&bg_color=070b14&color=00f5d4&line=9b5de5&point=f15bb5&area=true&area_color=9b5de5&hide_border=true&custom_title=commit%20volume%20%C2%B7%20ABDZ" />
+  <img src="https://raw.githubusercontent.com/abdallahabusidu/abdallahabusidu/output/stats.svg" width="100%" alt="GitHub portfolio stats" />
 </p>
 
 <p align="center">
