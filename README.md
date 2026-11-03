@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Abdallah — software engineer & senior tester" />
+  <img src="./hero.svg" width="100%" alt="Abdallah — software engineer & senior tester" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 <br/>
 
 <p align="center">
-  <img src="./assets/orderbook.svg" width="100%" alt="Skills order book" />
+  <img src="./orderbook.svg" width="100%" alt="Skills order book" />
 </p>
 
 <br/>
