@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" width="1000" height="370">
+<defs>
+  <linearGradient id="n" x1="0" x2="1"><stop offset="0" stop-color="#00f5d4"/><stop offset=".5" stop-color="#9b5de5"/><stop offset="1" stop-color="#f15bb5"/></linearGradient>
+  <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9b5de5" stop-opacity=".45"/><stop offset="1" stop-color="#9b5de5" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+</defs>
+<style>
+  text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,'Courier New',monospace}
+  .lbl{font-size:10.5px;fill:#6e7681;letter-spacing:1.5px}
+  .val{font-size:26px;font-weight:800}
+  .txt{font-size:12.5px;fill:#c9d1d9} .dim{fill:#6e7681}
+  .h{font-size:11px;fill:#8b98b8;letter-spacing:2px}
+  .up{opacity:0;animation:up .5s ease-out forwards}
+  @keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .draw{stroke-dasharray:8000;stroke-dashoffset:8000;animation:draw 3s .5s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .fade{opacity:0;animation:fade 1s 1.8s forwards} @keyframes fade{to{opacity:1}}
+  .grow{transform-box:fill-box;transform-origin:left;animation:grow .8s ease-out both}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .pulse{animation:p 1.4s ease-in-out infinite} @keyframes p{50%{opacity:.3}}
+</style>
+<rect width="1000" height="370" rx="18" fill="#070b14"/><rect width="1000" height="370" rx="18" fill="url(#grid)"/>
+<rect x=".5" y=".5" width="999" height="369" rx="18" fill="none" stroke="#1e2a45"/>
+<text x="30" y="42" font-size="16" font-weight="800" fill="url(#n)" letter-spacing="2" filter="url(#glow)">PORTFOLIO · @abdallahabusidu</text>
+<circle class="pulse" cx="376.40000000000003" cy="37" r="4" fill="#00f5a0"/>
+<text x="386.40000000000003" y="41" class="lbl">LIVE</text>
+<text x="970" y="41" class="lbl" text-anchor="end">updated 2026-11-07</text>
+<g class="up" style="animation-delay:0.15s">
+    <rect x="30" y="70" width="178.4" height="78" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+    <rect x="30" y="70" width="3" height="78" rx="1.5" fill="#00f5d4"/>
+    <text x="46" y="96" class="lbl">CONTRIBUTIONS · 1Y</text>
+    <text x="46" y="132" class="val" fill="#00f5d4" filter="url(#glow)">1.3k</text>
+  </g><g class="up" style="animation-delay:0.25s">
+    <rect x="220.4" y="70" width="178.4" height="78" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+    <rect x="220.4" y="70" width="3" height="78" rx="1.5" fill="#00bbf9"/>
+    <text x="236.4" y="96" class="lbl">COMMITS</text>
+    <text x="236.4" y="132" class="val" fill="#00bbf9" filter="url(#glow)">18</text>
+  </g><g class="up" style="animation-delay:0.35s">
+    <rect x="410.8" y="70" width="178.4" height="78" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+    <rect x="410.8" y="70" width="3" height="78" rx="1.5" fill="#9b5de5"/>
+    <text x="426.8" y="96" class="lbl">PRs + REVIEWS</text>
+    <text x="426.8" y="132" class="val" fill="#9b5de5" filter="url(#glow)">2</text>
+  </g><g class="up" style="animation-delay:0.45000000000000007s">
+    <rect x="601.2" y="70" width="178.4" height="78" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+    <rect x="601.2" y="70" width="3" height="78" rx="1.5" fill="#f15bb5"/>
+    <text x="617.2" y="96" class="lbl">STARS · REPOS</text>
+    <text x="617.2" y="132" class="val" fill="#f15bb5" filter="url(#glow)">109 · 83</text>
+  </g><g class="up" style="animation-delay:0.55s">
+    <rect x="791.6" y="70" width="178.4" height="78" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+    <rect x="791.6" y="70" width="3" height="78" rx="1.5" fill="#00f5a0"/>
+    <text x="807.6" y="96" class="lbl">STREAK · BEST</text>
+    <text x="807.6" y="132" class="val" fill="#00f5a0" filter="url(#glow)">0d · 19d</text>
+  </g>
+<rect x="30" y="168" width="610" height="182" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+<text x="50" y="192" class="h">ACTIVITY · 90D</text>
+<text x="620" y="192" class="lbl" text-anchor="end">peak 74 · 2026-10-24</text>
+<g stroke="#fff" stroke-opacity=".05"><line x1="50" x2="620" y1="330" y2="330"/><line x1="50" x2="620" y1="290" y2="290"/><line x1="50" x2="620" y1="250" y2="250"/><line x1="50" x2="620" y1="210" y2="210"/></g>
+<polygon class="fade" points="50,330 50.0,322.3 56.4,323.1 62.8,326.9 69.2,326.9 75.6,320.0 82.0,323.1 88.4,322.3 94.8,329.2 101.2,329.2 107.6,328.5 114.0,328.5 120.4,328.5 126.9,330.0 133.3,329.2 139.7,329.2 146.1,317.7 152.5,310.0 158.9,305.4 165.3,307.7 171.7,314.6 178.1,309.2 184.5,310.0 190.9,311.5 197.3,321.5 203.7,328.5 210.1,328.5 216.5,284.6 222.9,278.5 229.3,273.1 235.7,292.3 242.1,298.5 248.5,301.5 254.9,326.2 261.3,326.9 267.8,316.9 274.2,314.6 280.6,314.6 287.0,316.2 293.4,309.2 299.8,307.7 306.2,287.7 312.6,290.0 319.0,292.3 325.4,323.1 331.8,330.0 338.2,326.2 344.6,325.4 351.0,319.2 357.4,323.1 363.8,305.4 370.2,309.2 376.6,308.5 383.0,322.3 389.4,322.3 395.8,306.9 402.2,308.5 408.7,307.7 415.1,316.9 421.5,316.2 427.9,314.6 434.3,321.5 440.7,323.8 447.1,327.7 453.5,323.8 459.9,325.4 466.3,323.1 472.7,319.2 479.1,299.2 485.5,279.2 491.9,269.2 498.3,286.2 504.7,281.5 511.1,294.6 517.5,287.7 523.9,273.1 530.3,220.8 536.7,210.0 543.1,232.3 549.6,276.2 556.0,266.2 562.4,232.3 568.8,213.8 575.2,233.1 581.6,270.8 588.0,302.3 594.4,311.5 600.8,325.4 607.2,300.0 613.6,302.3 620.0,304.6 620,330" fill="url(#a)"/>
+<polyline class="draw" points="50.0,322.3 56.4,323.1 62.8,326.9 69.2,326.9 75.6,320.0 82.0,323.1 88.4,322.3 94.8,329.2 101.2,329.2 107.6,328.5 114.0,328.5 120.4,328.5 126.9,330.0 133.3,329.2 139.7,329.2 146.1,317.7 152.5,310.0 158.9,305.4 165.3,307.7 171.7,314.6 178.1,309.2 184.5,310.0 190.9,311.5 197.3,321.5 203.7,328.5 210.1,328.5 216.5,284.6 222.9,278.5 229.3,273.1 235.7,292.3 242.1,298.5 248.5,301.5 254.9,326.2 261.3,326.9 267.8,316.9 274.2,314.6 280.6,314.6 287.0,316.2 293.4,309.2 299.8,307.7 306.2,287.7 312.6,290.0 319.0,292.3 325.4,323.1 331.8,330.0 338.2,326.2 344.6,325.4 351.0,319.2 357.4,323.1 363.8,305.4 370.2,309.2 376.6,308.5 383.0,322.3 389.4,322.3 395.8,306.9 402.2,308.5 408.7,307.7 415.1,316.9 421.5,316.2 427.9,314.6 434.3,321.5 440.7,323.8 447.1,327.7 453.5,323.8 459.9,325.4 466.3,323.1 472.7,319.2 479.1,299.2 485.5,279.2 491.9,269.2 498.3,286.2 504.7,281.5 511.1,294.6 517.5,287.7 523.9,273.1 530.3,220.8 536.7,210.0 543.1,232.3 549.6,276.2 556.0,266.2 562.4,232.3 568.8,213.8 575.2,233.1 581.6,270.8 588.0,302.3 594.4,311.5 600.8,325.4 607.2,300.0 613.6,302.3 620.0,304.6" fill="none" stroke="url(#n)" stroke-width="2" stroke-linejoin="round" filter="url(#glow)"/>
+<circle class="pulse" cx="620.0" cy="304.6" r="4.5" fill="#00f5d4" filter="url(#glow)"/>
+<rect x="650" y="168" width="320" height="182" rx="10" fill="#0b1220" stroke="#1e2a45"/>
+<text x="670" y="192" class="h">ALLOCATION · LANGUAGES</text>
+<rect class="grow" style="animation-delay:0.6s" x="670.0" y="200" width="90.5" height="12" rx="3" fill="#3178c6"/><rect class="grow" style="animation-delay:0.6799999999999999s" x="762.5" y="200" width="82.5" height="12" rx="3" fill="#f1e05a"/><rect class="grow" style="animation-delay:0.76s" x="847.1" y="200" width="75.1" height="12" rx="3" fill="#e34c26"/><rect class="grow" style="animation-delay:0.84s" x="924.1" y="200" width="25.4" height="12" rx="3" fill="#663399"/><rect class="grow" style="animation-delay:0.9199999999999999s" x="951.6" y="200" width="7.9" height="12" rx="3" fill="#555555"/><rect class="grow" style="animation-delay:1s" x="961.5" y="200" width="6.5" height="12" rx="3" fill="#f34b7d"/><g class="up" style="animation-delay:0.8s"><circle cx="675" cy="244" r="5" fill="#3178c6"/>
+    <text x="686" y="248" class="txt">TypeScript</text><text x="810" y="248" class="txt dim" text-anchor="end">27.8%</text></g><g class="up" style="animation-delay:0.88s"><circle cx="827" cy="244" r="5" fill="#f1e05a"/>
+    <text x="838" y="248" class="txt">JavaScript</text><text x="962" y="248" class="txt dim" text-anchor="end">25.4%</text></g><g class="up" style="animation-delay:0.9600000000000001s"><circle cx="675" cy="274" r="5" fill="#e34c26"/>
+    <text x="686" y="278" class="txt">HTML</text><text x="810" y="278" class="txt dim" text-anchor="end">23.2%</text></g><g class="up" style="animation-delay:1.04s"><circle cx="827" cy="274" r="5" fill="#663399"/>
+    <text x="838" y="278" class="txt">CSS</text><text x="962" y="278" class="txt dim" text-anchor="end">8.3%</text></g><g class="up" style="animation-delay:1.12s"><circle cx="675" cy="304" r="5" fill="#555555"/>
+    <text x="686" y="308" class="txt">C</text><text x="810" y="308" class="txt dim" text-anchor="end">3.0%</text></g><g class="up" style="animation-delay:1.2000000000000002s"><circle cx="827" cy="304" r="5" fill="#f34b7d"/>
+    <text x="838" y="308" class="txt">C++</text><text x="962" y="308" class="txt dim" text-anchor="end">2.6%</text></g>
+</svg>
